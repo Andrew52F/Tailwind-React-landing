@@ -33,13 +33,13 @@ const Project = ({title, text}) => {
 }
 const Projects = () => {
   return (
-    <section id='projects' className="py-48">
+    <section id='projects' className="py-32">
     {/* HEADING */}
     <motion.div
     className="md:w-2/5 mx-auto text-center"
     initial='hidden'
     whileInView='visible'
-    viewport={{once:true, amount:0.5}}
+    viewport={{once:true, amount: 'all'}}
     transition={{duration: 0.5}}
     variants={{
       hidden: {opacity: 0, y: -50},
@@ -66,7 +66,7 @@ const Projects = () => {
       className="sm:grid sm:grid-cols-3"
       initial='hidden'
       whileInView='visible'
-      viewport={{once:true, amount:0.5}}
+      viewport={{once:true, amount:0.1}}
       variants={container}
       >
         <div className="flex justify-center text-center items-center p-10 bg-red max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold">
