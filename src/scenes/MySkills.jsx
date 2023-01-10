@@ -55,7 +55,7 @@ return (
     </div>
   </div>
   {/* SKILLS */}
-  <div className="md:flex md:justify-between mt-16 gap-32">
+  <div className="md:flex md:justify-between mt-8 gap-32">
     {/* EXPERIENCE */}
     <motion.div
       className="md:w-1/3 mt-10"
@@ -106,7 +106,7 @@ return (
         praesentium magnam ad, commodi illo!
       </p>
     </motion.div>
-     {/* IMAGIMATIVE */}
+     {/* IMAGINATIVE */}
      <motion.div
       className="md:w-1/3 mt-10"
       initial='hidden'
